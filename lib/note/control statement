@@ -1,0 +1,17 @@
+control statements 
+
+----Seletion statements
+  
+     ----- if..else
+     ----- switch..case
+
+----Iteration statements
+
+    ----- while
+    ----- do..while
+    ----- for
+
+----Jump statements
+   
+    ----- break
+    ----- continue

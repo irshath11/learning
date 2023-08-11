@@ -1,0 +1,52 @@
+Increament operator
+
+a++
+++a
+
+Decrement operator
+
+a--
+--a
+
+Compound operator
+
+a operator= b ----> a = a operator b
+
+eg:
+
+a+ = 3 ----> a = a+3
+
+Anonyms function
+
+const item = ["irsh", "aham", "cool"];
+
+list.map((item){
+    return item.toUpperCase();
+}).forEach((item){
+    print("$item: ${item.length}");
+});
+
+
+result:
+
+IRSH: 4
+AHAM: 4
+COOL: 4
+
+.forEach((item){
+    print("$item: ${item.length}");
+}) ---> This is the anonyms function
+
+State 
+
+stateless widgets --> The widgets whose state cannot be altered once they are build
+
+stateful widgets --> The widgets whose starts can be altered once they are build are called stateful widgets
+
+Working with APIs
+
+It involves making HTTP requests to a server and processing the responses. Flutter provides
+a number of libraries for making HTTP requests, including dart:io and http.
+
+The http library is a popular choice for making HTTP requests in Flutter, as it is easy
+to use and provides support for HTTP methods such as GET, POST, PUT, DELETE and more

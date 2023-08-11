@@ -1,0 +1,63 @@
+Advanced Basics
+
+Main function - must
+ Scaffold - base screen
+
+
+Class - BluePrint for an object
+
+New Concepts 
+
+Render Contenet Conditionally
+Lifting State Up
+
+StateFul Widget
+
+_class --> _ indicates the private class should be used only with in the class
+
+
+Accepting and passing values
+
+function add and using
+
+void Function()
+
+Importance of class - Model or blueprint
+ if statement
+
+
+
+Flutter advanced basics and provider, management and
+get and post method in api response request and make
+the request that gives the data, make his data used
+by the postman
+
+
+
+Flutter and internals
+
+widget tree
+  
+  Combination of widgets in your code 
+
+  build() is called very frequently to check for updates
+
+
+element tree
+
+  In-memory representation of your widgets
+
+  used for determining necessary UI updates
+
+
+render tree
+
+  The visible UI building blocks
+
+  Updated whn determined via element tree comparisons
+
+While running build() [widget tree] it runs with existing [element tree] and compare the new [element tree] with old one and UI changes can rendered through [Render tree]
+
+
+
+
